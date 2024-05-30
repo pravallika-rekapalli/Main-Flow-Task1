@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.pixelstalk.net/wp-content/uploads/2016/03/Colorful-flowers-wallpaper-hd-images.jpg">
+    <title>Flowers Store</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    nav{
+        display:flex;
+        font-family: dancing script;
+        padding:0px 10px;
+        justify-content: space-between;
+        align-items:center;
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+    }
+    nav logo{
+        font-size:30px;
+        font-weight: bold;
+        float: left;
+    }
+    nav ul{
+        display:flex;
+    }
+    nav li{
+        list-style:none;
+    }
+    nav li a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        padding:16px;
+        display: block;
+    }
+    nav li a:hover{
+        color:rgb(60, 128, 0);
+        font-weight: bold;
+    }
+    .overlay{
+        display: flex;
+        height: 100vh;
+        background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Colorful-flowers-wallpaper-hd-images.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay p{
+        color:rgb(255, 255, 255);
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+    <div>
+        <nav>
+            <div class="logo">Flowers Store</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+       </nav>
+       <div class="overlay">
+        <p>
+            Beautiful flowers
+        </p>
+       </div>
+        
+    </div>
+</body>
+</html>
